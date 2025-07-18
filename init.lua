@@ -613,6 +613,7 @@ require('lazy').setup({
         'stylua', -- Used to format Lua code
         'isort', -- Used to sort Python imports
         'black', -- Used to format Python code
+        'ruff', -- Used to lint Python code
       })
       require('mason-tool-installer').setup { ensure_installed = ensure_installed }
 
